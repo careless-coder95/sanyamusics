@@ -24,7 +24,7 @@ async def show_config(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/urstarkz"
+                        "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/carelessxowner"
                     )
                 ]
             ]
