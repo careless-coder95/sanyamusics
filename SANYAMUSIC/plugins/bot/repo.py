@@ -21,12 +21,12 @@ async def repo_handler(_, msg):
     buttons = [
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/SanyaXsupport"),
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/urstarkz"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/CarelessxWorld"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/carelessxowner"),
         ],
-        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/sanyaxbots")],
+        [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ll_CarelessxCoder_ll")],
         [
-            InlineKeyboardButton("sᴀɴʏᴀ ᴍᴜsɪᴄ", url="https://github.com/urstark/sanyamusic/fork")
+            InlineKeyboardButton("sᴀɴʏᴀ ᴍᴜsɪᴄ", url="https://t.me/CarelessxWorld")
          ]
     ]
 
@@ -34,6 +34,7 @@ async def repo_handler(_, msg):
         photo="https://graph.org/file/6603c3740378d3f7187da.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons)
+        has_spoiler=True   # <-- ye add karo
     )
 
    
@@ -54,7 +55,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/urSTARK/Sanyamusic) | [UPDATES](https://t.me/urstarkz)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Land/Lele/Repo/kyu/lega) | [UPDATES](https://t.me/CarelessxWorld)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
