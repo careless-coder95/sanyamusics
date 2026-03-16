@@ -25,7 +25,7 @@ SPAM_WINDOW_SECONDS = 60
 SPAM_THRESHOLD = 10
 
 # Image assets
-bg_path = "SANYAMUSIC/assets/userinfo.png"
+bg_path = "SANYAMUSIC/assets/wel2.png"
 font_path = "SANYAMUSIC/assets/hiroko.ttf"
 
 # Welcome message text (can be overridden by env var)
